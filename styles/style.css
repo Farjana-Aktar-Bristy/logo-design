@@ -131,3 +131,23 @@ nav {
 .card-footer img {
   border-radius: 40%;
 }
+
+/* Focus Section Styles */
+.focus-container {
+  text-align: center;
+  margin: 70px 150px;
+}
+.focus-title {
+  font-weight: bold;
+  font-size: 50px;
+}
+.focus-info {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+.focus-image {
+  padding: 20px;
+}
+.focus-image img {
+  border-radius: 50px;
+}
