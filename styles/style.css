@@ -6,14 +6,15 @@
 }
 /* shared styles */
 .btn-primary {
+  font-size: 16px;
   background-color: rgb(78, 71, 255);
   color: white;
   font-weight: 600;
   line-height: 150%;
   border-radius: 10px;
   border: none;
-  margin: 12px 35px;
 }
+/* Header Styles */
 .navbar {
   /* width: 100%; */
   height: 698px;
@@ -39,4 +40,28 @@ nav {
 .banner-title {
   color: rgb(37, 36, 50);
   font-size: 55px;
+}
+
+/* Action Styles */
+.action {
+  display: flex;
+  justify-content: space-between;
+  padding: 150px;
+}
+.action-info {
+  margin: 60px 60px 60px 0px;
+}
+.action-title {
+  color: rgb(37, 36, 50);
+  font-size: 40px;
+  font-weight: bold;
+}
+.action-description {
+  font-size: 25px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-img {
+  height: 320px;
+  width: 400px;
+  border-radius: 50px;
 }
