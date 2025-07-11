@@ -17,7 +17,6 @@
   background-color: rgb(78, 71, 255);
   color: white;
   font-weight: 600;
-  /* line-height: 150%; */
   border-radius: 10px;
   border: none;
   padding: 12px 35px;
@@ -150,4 +149,42 @@ nav {
 }
 .focus-image img {
   border-radius: 50px;
+}
+
+/* Newsletter section Styles */
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px;
+}
+.newsletter-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 90px;
+  padding: 200px 0;
+}
+.newsletter-form {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.form-btn-submit {
+  font-size: 16px;
+  background-color: rgb(78, 71, 255);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 100px;
+  width: 100%;
 }
