@@ -17,9 +17,15 @@
   background-color: rgb(78, 71, 255);
   color: white;
   font-weight: 600;
-  line-height: 150%;
+  /* line-height: 150%; */
   border-radius: 10px;
   border: none;
+  padding: 12px 35px;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
 }
 /* Header Styles */
 .navbar {
