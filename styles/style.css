@@ -105,3 +105,29 @@ nav {
   color: rgba(0, 0, 0, 0.5);
   font-family: "Inter", sans-serif;
 }
+/* Review section */
+.review-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(37, 36, 50, 1);
+}
+.review-card-container {
+  padding: 50px 150px 150px 150px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.review-card {
+  padding: 25px;
+  border: 1px solid #f2eded;
+  border-radius: 15px;
+}
+.card-footer-container {
+  display: flex;
+  gap: 6px;
+  padding: 25px 25px 25px 0;
+}
+.card-footer img {
+  border-radius: 40%;
+}
