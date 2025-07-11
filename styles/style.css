@@ -1,8 +1,15 @@
-.open-sans-normal {
-  font-family: "Open Sans", sans-serif;
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+}
+
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 /* shared styles */
 .btn-primary {
@@ -16,9 +23,7 @@
 }
 /* Header Styles */
 .navbar {
-  /* width: 100%; */
   height: 698px;
-  /* margin: 0; */
   background-image: url("../images/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,4 +69,33 @@ nav {
   height: 320px;
   width: 400px;
   border-radius: 50px;
+}
+
+/* Productive-Users section */
+.productive-user {
+  background-color: rgba(78, 71, 255, 0.1);
+  margin: 120px 150px;
+  border-radius: 25px;
+}
+.productive {
+  padding: 50px 80px;
+}
+.productive-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: rgba(37, 36, 50, 1);
+}
+.productive-info {
+  display: flex;
+  gap: 160px;
+  justify-content: space-between;
+}
+.pro-title {
+  color: rgb(78, 71, 255);
+  font-size: 80px;
+}
+.pro-description {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
 }
